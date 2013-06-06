@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_tab_mouse_track"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/main_mouse_track"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#535252" />
+
+    <LinearLayout
+        android:id="@+id/main_mouse_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/main_btn_mouse_left"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#dbd7fe" />
+
+        <Button
+            android:id="@+id/main_btn_mouse_right"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="#dbd7fe" />
+    </LinearLayout>
+
+</LinearLayout>

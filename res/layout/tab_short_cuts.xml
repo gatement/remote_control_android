@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_tab_main_control"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/main_btn_volume_up"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/button_selector3"
+            android:text="@string/main_btn_volume_up" />
+
+        <Button
+            android:id="@+id/main_btn_volume_down"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_selector3"
+            android:text="@string/main_btn_volume_down" />
+
+        <Button
+            android:id="@+id/main_btn_volume_mute"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_selector2"
+            android:text="@string/main_btn_volume_mute" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/main_btn_shutdown"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_selector4"
+        android:text="@string/main_btn_shutdown" />
+
+</LinearLayout>
